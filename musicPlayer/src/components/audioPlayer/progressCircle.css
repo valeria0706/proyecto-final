@@ -1,0 +1,41 @@
+circle {
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transform: rotate(93deg);
+  -webkit-transform: rotate(93deg);
+  -moz-transform: rotate(93deg);
+  -ms-transform: rotate(93deg);
+  -o-transform: rotate(93deg);
+  transform-origin: 50% 50%;
+}
+
+image.active {
+  animation: rotation 30s infinite linear;
+  -webkit-animation: rotation 30s infinite linear;
+  transform-origin: 50% 50%;
+}
+
+.progress-circle {
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+  }
+}

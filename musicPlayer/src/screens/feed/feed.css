@@ -1,0 +1,25 @@
+.containerFilter{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inputFilter {
+    margin: 30px;
+    background: #1e2a3e;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+  }
+
+ 
+

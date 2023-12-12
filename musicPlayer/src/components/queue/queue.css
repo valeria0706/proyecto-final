@@ -1,0 +1,116 @@
+.queue-container {
+  width: 100%;
+  height: 35%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-top-right-radius: 0;
+  background-color: #3e61d2;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at top left,
+      transparent 0,
+      #3e61d2 40px
+    ),
+    repeating-linear-gradient(#4767d055, #4767d0);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.queue {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.upNext {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.queue-list {
+  height: 80%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.queue-item {
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+.queue-item:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.queue-item p {
+  margin: 0 15px 0 0;
+}
+.track-name {
+  width: 75%;
+  text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(
+    100,
+    100,
+    255,
+    0.7
+  ); /* Glassmorphism: color del thumb */
+  border-radius: 10px;
+}
+
+/* Estilos para Firefox */
+
+/* Estilos adicionales para mejorar la apariencia al pasar el ratón */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 255, 1);
+}
+
+/* Estilos para el thumb en Firefox al pasar el ratón */
+::-moz-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 255, 1);
+}
